@@ -31,9 +31,14 @@ nav a{
     text-decoration: none;
     margin: 2%;
     font-size: 150%;
+    border: solid #73AB84 3px;
+    background-color: #89CCB1;
+    width: 45%;
+    padding: 1%;
+    text-align: center;
 }
 nav a:hover{
-    color: #99D19C;
+    background-color: #99D19C;
 }
 
 .img{
@@ -73,6 +78,7 @@ nav a:hover{
 }
 .box{
     border: solid #73AB84 5px;
+    border-radius: 2px;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -96,4 +102,5 @@ button{
     background-color: #73AB84;
     padding: 3%;
     font-size: 150%;
+    border-radius: 3px;
 }
