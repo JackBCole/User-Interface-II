@@ -1,0 +1,36 @@
+*{
+    border: solid black 1px;
+     background-color:#ADE1E5; 
+     color: #000501;
+     font-family:  monospace;
+ }
+ 
+ .top{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+
+}
+h1{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    height: 10%;
+    width: 100%;
+    margin-top: 3%;
+}
+nav a{
+    text-decoration: none;
+    margin: 2%;
+    font-size: 150%;
+    border: solid #73AB84 3px;
+    background-color: #89CCB1;
+    width: 45%;
+    padding: 1%;
+    text-align: center;
+}
