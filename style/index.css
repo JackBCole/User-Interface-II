@@ -1,1 +1,61 @@
 /* Add CSS styling here */
+
+*{
+    border: solid black 1px;
+    background-color:#ADE1E5; 
+    color: #000501;
+    font-family:  monospace;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+
+}
+
+header nav {
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parent{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    
+    
+}
+.box-1{
+    
+
+}
+.box-3{
+
+}
+.box-3{
+
+}
+.box-4{
+
+}
+.box-5{
+
+}
+.box-6{
+
+}
+.bigpicture{
+    background: url(https://images.unsplash.com/photo-1591256686923-e7701823ae95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+    
+}
+footer{
+    margin: 10%;
+    background-color: #79C7C5;
+}
