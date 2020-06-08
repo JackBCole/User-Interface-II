@@ -1,0 +1,39 @@
+
+*{
+    /*border: solid black 1px;*/
+     background-color:#ADE1E5; 
+     color: #000501;
+     font-family:  monospace;
+ }
+ html{
+     font-size: 62.5%;
+ }
+ 
+ 
+ h1{
+     width: 50%;
+     font-size: 4rem;
+     padding:2%;
+ }
+ nav{
+     display: flex;
+     justify-content: flex-end;
+     padding-top: 5%;
+     width: 100%;
+     font-size: 2rem;
+ }
+ nav a{
+     text-decoration: none;
+     margin: 2%;
+     font-size: 150%;
+     border: solid #73AB84 3px;
+     background-color: #89CCB1;
+     width: 45%;
+     height: 25%;
+     padding: 2%;
+     text-align: center;
+ }
+ nav a:hover{
+     background-color: #99D19C;
+ }
+ 

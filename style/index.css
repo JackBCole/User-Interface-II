@@ -14,7 +14,8 @@ html{
 h1{
     width: 50%;
     font-size: 4rem;
-    padding:2%;
+    font-weight: 900;
+    padding: 2%;
 }
 nav{
     display: flex;
@@ -100,12 +101,25 @@ button{
     font-size: 150%;
     border-radius: 3px;
     height: 100%;
+    width: 100%;
+}
+@media(max-width: 1920px){
+    .centeredtext{
+        top: 85%;
+    }
+@media(max-width: 1336px){
+    h1{
+        font-size: ;
+    }
+    .centeredtext{
+        top: 80%;
+    }
 }
 @media(max-width: 800px){
     h1{
         font-size: 2.25rem;
         font-weight: 800;
-        padding: 3%;
+        padding: 2%;
     }
     nav{
         flex-direction: row;
@@ -118,15 +132,12 @@ button{
 }
 @media(max-width: 500px){
    h1{
-       padding-left: 20%;
+       padding-left: 35%;
    }
     nav{
        flex-direction: column;
        align-items: center;
     }
-   
-    
-
     img{
         width: 90%; 
     }
@@ -134,14 +145,21 @@ button{
         top: 100%;
     }
     .box{
-        width: 100%;
+        width: 30%;
     }
     .parent{
         flex-flow: row wrap;
         align-items: flex-start;
         padding-left: 11%;
-
     }
 
     
+}
+@media(max-width: 360px){
+    h1{
+        padding-right: 10%;
+    }
+    .centeredtext{
+        top: 85%;
+    }
 }
